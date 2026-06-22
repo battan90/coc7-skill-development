@@ -11,7 +11,7 @@
     "systems": [
       {
         "id": "CoC7",
-        "type": "requires",
+        "type": "system",
         "compatibility": {}
       }
     ]

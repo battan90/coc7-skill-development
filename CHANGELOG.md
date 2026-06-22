@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.1
+
+- Fix manifest: system relationship `type` must be `"system"`, not `"requires"` (caused install validation error on v13).
+
+## 0.1.0
 
 - Initial module: rolls development-flagged skills, applies 1d10 gains (capped at 99), clears flags.
 - Actor-sheet header button (single actor) + bundled macro opening a GM multi-select picker (party batch).
