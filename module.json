@@ -1,6 +1,6 @@
 {
   "id": "coc7-skill-development",
-  "title": "CoC7 Skill Development",
+  "title": "CoC 7e Skill Development",
   "description": "Automates end-of-scenario skill improvement checks for Call of Cthulhu 7th Edition: rolls all development-flagged skills, applies gains, with anti-cheat and configurable output.",
   "version": "0.1.0",
   "compatibility": {

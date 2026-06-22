@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.4
+
+- Rename display title to "CoC 7e Skill Development" for better search discoverability (module id unchanged).
+
+
 ## 0.1.3
 
 - Verify compatibility with Foundry VTT v14 (14.363); minimum stays v13.

@@ -1,4 +1,4 @@
-# CoC7 Skill Development
+# CoC 7e Skill Development
 
 A [Foundry VTT](https://foundryvtt.com) module for the
 [Call of Cthulhu 7th Edition](https://foundryvtt.com/packages/CoC7) system that
