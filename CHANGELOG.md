@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3
+
+- Verify compatibility with Foundry VTT v14 (14.363); minimum stays v13.
+
+
 ## 0.1.2
 
 - Fix empty macro compendium: compile per-document source files (CLI ignored the previous single array file).
