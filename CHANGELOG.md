@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- Fix empty macro compendium: compile per-document source files (CLI ignored the previous single array file).
+
+
 ## 0.1.1
 
 - Fix manifest: system relationship `type` must be `"system"`, not `"requires"` (caused install validation error on v13).

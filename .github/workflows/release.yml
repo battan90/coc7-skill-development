@@ -17,15 +17,17 @@ jobs:
         with:
           node-version: 20
 
-      # Compile src-packs/*.json into LevelDB packs under packs/.
+      # Compile per-document source files into a LevelDB pack under packs/macros.
       - name: Compile compendium packs
         run: |
           npm install --no-save @foundryvtt/foundryvtt-cli
           npx fvtt package pack macros \
-            --in src-packs \
+            --in src-packs/macros \
             --out packs \
             --id coc7-skill-development \
-            --type Module || true
+            --type Module
+          echo "--- compiled pack contents ---"
+          ls -la packs/macros
 
       # Pin manifest version + URLs to this release tag.
       - name: Set release version in module.json
