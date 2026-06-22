@@ -1,0 +1,53 @@
+{
+  "id": "coc7-skill-development",
+  "title": "CoC7 Skill Development",
+  "description": "Automates end-of-scenario skill improvement checks for Call of Cthulhu 7th Edition: rolls all development-flagged skills, applies gains, with anti-cheat and configurable output.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "CoC7",
+        "type": "requires",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Sebastian Bostrom"
+    }
+  ],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "macros",
+      "label": "Skill Development Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "system": "CoC7",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://github.com/sebastianbostrom/coc7-skill-development",
+  "manifest": "https://github.com/sebastianbostrom/coc7-skill-development/releases/latest/download/module.json",
+  "download": "https://github.com/sebastianbostrom/coc7-skill-development/releases/latest/download/module.zip"
+}

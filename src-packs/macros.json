@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Skill Development",
+    "type": "script",
+    "img": "icons/sundries/gaming/dice-runed-brown.webp",
+    "scope": "global",
+    "command": "// CoC7 Skill Development — opens the investigator picker (GM) or runs on your character (player).\ngame.modules.get(\"coc7-skill-development\")?.api.openPicker();",
+    "flags": {}
+  }
+]

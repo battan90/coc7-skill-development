@@ -1,0 +1,36 @@
+{
+  "COC7SD.ModuleTitle": "CoC7 Skill Development",
+  "COC7SD.HeaderButton": "Skill Development",
+
+  "COC7SD.Settings.OutputVisibility.Name": "Result Output Visibility",
+  "COC7SD.Settings.OutputVisibility.Hint": "Who can see skill development results posted to chat.",
+  "COC7SD.Settings.OutputVisibility.Public": "Public (everyone)",
+  "COC7SD.Settings.OutputVisibility.PlayerGM": "Player + GM",
+  "COC7SD.Settings.OutputVisibility.GMOnly": "GM only",
+
+  "COC7SD.Settings.Enforcement.Name": "Anti-Cheat Enforcement",
+  "COC7SD.Settings.Enforcement.Hint": "How rolls are committed. Commit-on-roll prevents players re-rolling for better results.",
+  "COC7SD.Settings.Enforcement.CommitOnRoll": "Commit on roll (GM keeps discard)",
+  "COC7SD.Settings.Enforcement.Trusting": "Trusting (everyone can discard)",
+
+  "COC7SD.Warn.NoActor": "Select a token or assign a character first.",
+  "COC7SD.Info.NoFlagged": "{name} has no skills flagged for development.",
+  "COC7SD.Info.Cancelled": "Skill development cancelled — no changes applied.",
+
+  "COC7SD.Dialog.Title": "Skill Development: {name}",
+  "COC7SD.Dialog.Review": "Review results below.",
+  "COC7SD.Dialog.Confirm": "Confirm & Apply",
+  "COC7SD.Dialog.Discard": "Cancel (discard rolls)",
+  "COC7SD.Dialog.Close": "Close",
+
+  "COC7SD.Table.Skill": "Skill",
+  "COC7SD.Table.Roll": "Roll",
+  "COC7SD.Table.Result": "Result",
+  "COC7SD.Result.Success": "Success!",
+  "COC7SD.Result.NoImprovement": "No improvement",
+
+  "COC7SD.Picker.Title": "Select Investigators",
+  "COC7SD.Picker.Hint": "Choose which investigators run skill development.",
+  "COC7SD.Picker.Run": "Run Development",
+  "COC7SD.Picker.None": "No investigators have skills flagged for development."
+}
